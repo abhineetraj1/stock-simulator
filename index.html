@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Stock Simulation</title>
+	<link rel="stylesheet" type="text/css" href="static/style/main.css">
+	<link rel="stylesheet" type="text/css" href="static/style/index.css">
+	<link rel="stylesheet" type="text/css" href="static/style/sign.css">
+	<script type="text/javascript" src="static/script/index.js"></script>
+	<link rel="shortcut icon" href="static/media/suitcase.png">
+</head>
+<body>
+
+<video id="bgvid" autoplay muted loop>
+	<source src="static/media/bgvid.mp4">
+</video>
+
+<div id="fg">
+	<p id="ttl"><mark>Stock Simulation</mark></p>
+	<p id="des">Your Path to Financial Freedom Starts Here<br>Are you a college student looking to make the most of your time and build a brighter financial future? Our stock teaching platform is designed just for you. With our easy-to-use resources and user guidance, you can learn the ins and outs of the stock market and start investing with confidence. Whether you're looking to build your savings or plan for long-term wealth, we'll help you get there. Sign up today and start your journey to financial success!</p>
+	<div id="cls-dv">
+		<button class="btn" onclick="sign('up')">Sign up</button>
+		<button class="btn" onclick="sign('in')">Sign in</button>
+	</div>
+	<div id="aboutus">
+		<h1>About us</h1>
+		<p class="abt">Welcome to our online platform for visual stock simulation, where you can learn and practice investing in the stock market without risking your hard-earned money. Our website is designed to provide an immersive and educational experience for novice investors to learn the basics of the stock market and for experienced investors to sharpen their trading skills.Our platform allows you to simulate the buying and selling of stocks, intraday trading, and other investment strategies in real-time, using up-to-date stock market data. You can create an account and start practicing immediately, using virtual currency to trade stocks and track your portfolio's performance.Our easy-to-use interface provides you with all the necessary tools to analyze market trends, track company performance, and make informed investment decisions. You can set up alerts and notifications to stay updated on market movements and follow your favorite stocks.</p>
+	</div>
+
+	<div id="goals">
+		<h1 style="text-align: center;color: white;">Our goals</h1>
+		<div class="ytr">
+			Our platform aims to provide education and awareness about the stock market and investing to people who may not have had access to this knowledge before. We believe that everyone should have the opportunity to learn about investing and build their financial literacy.
+		</div>
+		<div class="ytr">
+			Our platform allows users to practice and gain experience in investing without risking their money. We believe that practicing in a risk-free environment is an important step towards building confidence and competence in investing.
+		</div>
+		<div class="ytr">
+			Our platform aims to empower users to take control of their financial future by providing the tools and resources they need to succeed in the stock market. We believe that everyone has the potential to achieve financial independence and security through investing.
+		</div>
+	</div>
+
+	<div id="cnn">
+		<p style="color: black;font-weight: bold;text-decoration: underline;font-size: 25px;text-align: center;">Why us ?</p>
+		<div class="ctr">
+			Our platform is designed with college students in mind, providing easy-to-understand resources that explain complex investing concepts in simple terms.
+		</div>
+		<div class="ctr">
+			A.I. Guidance: We have A.I. available to provide guidance and answer any questions you may have along the way.
+		</div>
+		<div class="ctr">
+			Investing in stocks can be an effective way to build wealth over time, and our platform provides you practise tools you need to get started and make informed investment decisions.
+		</div>
+		<br><br><br><br>
+	</div>
+
+	<div id="con">
+		<form method="POST" action="/">
+			<p style="color: white;font-size: 25px;text-align: center;text-decoration: underline;">Contact us</p>
+			<input type="email" name="email" placeholder="Enter your mail">
+			<textarea name="message" placeholder="Enter your feedback or message here..."></textarea>
+			<button id="frm-btn">Contact</button>
+		</form>
+		<br>
+	</div>
+	<div id="ftr">
+		Copyright@2023 "All rights are reserved"
+	</div>
+</div>
+<script type="text/javascript">
+	if ("{{msg}}" != "none") {
+		alert("{{msg}}");
+	}
+</script>
+
+</body>
+</html>

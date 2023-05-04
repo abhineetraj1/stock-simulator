@@ -1,0 +1,229 @@
+mark{
+	color: white;
+	background: transparent;
+}
+#ttl{
+	color: white;
+	text-align: center;
+	font-size: 70px;
+	font-family:Bahnschrift;
+}
+#des{
+	position: relative;
+	width: 80%;
+	left: 10%;
+	font-size: 25px;
+	text-align: center;
+	color: white;
+
+}
+.btn{
+	background: white;
+	color: black;
+	padding: 3px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin: 2vh;
+	font-size: 23px;
+}
+.btn:hover{
+	border-width: 0px;
+	background: black;
+	box-shadow: 0px 0px 10px black;
+	color: white;
+	animation: ani 1s;
+}
+#cnn{
+	overflow: scroll;
+	margin-top: 10vh;
+	width: 100%;
+	height: 50vh;
+	background: white;
+}
+@keyframes ani{
+	from{
+		background: white;
+		color: black;
+		box-shadow: 0px;
+	}
+	to {
+		background: black;
+		color: white;
+		box-shadow: 0px 0px 10px black;
+		border-width: 0px;
+	}
+}
+.ctr{
+	position: relative;
+	margin-top: 4vh;
+	text-align: center;
+	padding: 3px;
+	font-size: 20px;
+	font-family: Bahnschrift;
+	background: linear-gradient(45deg, rgba(86,53,1,1) 0%, rgba(215,146,0,1) 100%);
+	height: 25vh;
+	overflow: scroll;
+	color: white;
+	border-radius: 10px;
+	margin-left: 2.5%;
+	width: 25%;
+	float: left;
+	margin-right: 5%;
+}
+#cls-dv{
+	width: 100%;
+	text-align: center;
+}
+.con{
+	width: 100%;
+	height: 60vh;
+}
+form{
+	width: 40%;
+	padding: 3px;
+	text-align: center;
+	position: relative;
+	left: 30%;
+}
+input{
+	margin-top: 5px;
+	width: 100%;
+	font-size: 20px;
+	padding: 3px;
+}
+textarea{
+	margin-top: 5px;
+	width: 100%;
+	height: 25vh;
+	font-size: 19px;
+}
+#frm-btn{
+	margin-top: 5px;
+	width: 50%;
+	position: relative;
+	left: 25%;
+	background: white;
+	font-size: 20px;
+	padding: 3px;
+}
+#frm-btn:hover{
+	border-width: 0px;
+	background: black;
+	box-shadow: 0px 0px 10px black;
+	color: white;
+	animation: ani 0.5s;	
+}
+#aboutus{
+	width: 100%;
+	background: white;
+	margin-top: 4vh;
+	padding-top: 2vh;
+	padding-bottom: 2vh;
+	font-size: 19px;
+	text-align: center;
+}
+.abt{
+	font-family: Century Schoolbook;
+	position: relative;
+	width: 80%;
+	left: 10%;
+}
+.ctr:hover{
+	background: white;
+	border:solid;
+	border-width: 0px;
+	border-color: #5c3800;
+	color: white;
+	background: linear-gradient(45deg, rgba(215,146,0,1) 0%, rgba(86,53,1,1) 100%);
+	box-shadow: 0px 0px 10px #5c3800;
+	animation: ctr_ani 2s;
+}
+#ftr{
+	width: 100%;
+	padding: 2vh;
+	text-align: center;
+	background: white;
+	font-size: 19px;
+}
+#goals{
+	height: 50vh;
+}
+.ytr{
+	background: white;
+	color: black;
+	position: relative;
+	margin-top: 4vh;
+	text-align: center;
+	padding: 3px;
+	font-size: 20px;
+	font-family: Bahnschrift;
+	height: 25vh;
+	overflow: scroll;
+	border-radius: 10px;
+	margin-left: 2.5%;
+	width: 25%;
+	float: left;
+	margin-right: 5%;
+}
+.ytr:hover{
+	background: black;
+	border: solid;
+	color: white;
+	border-color: black;
+	animation: ani 1s;
+	box-shadow: 0px 0px 10px black;
+}
+@keyframes ctr_ani{
+	from{
+		background: linear-gradient(45deg, rgba(86,53,1,1) 0%, rgba(215,146,0,1) 100%);
+		color: white;
+		box-shadow: 0px;
+	}
+	to{
+		background: white;
+		border-width: 0px;
+		color: white;
+		background: linear-gradient(45deg, rgba(215,146,0,1) 0%, rgba(86,53,1,1) 100%);;
+		box-shadow: 0px 0px 10px black;
+	}
+}
+@media screen and (max-width:500px) {
+	#cnn{
+		height: 110vh;
+	}
+	#goals{
+		height: 110vh;
+	}
+	#ttl{
+		font-size: 35px;
+	}
+	#des{
+		font-size: 19px;
+	}
+	.ctr{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 80%;
+		left: 10%;
+	}
+	.ytr{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 80%;
+		left: 10%;
+	}
+	form{
+		width: 80%;
+		position: relative;
+		left: 10%;
+	}
+	mark{
+		color: white;
+		background: #7d643c;
+	}
+}
+@media screen and (min-width:500px) {
+	#aboutus{
+		margin-top: 18vh;
+	}
+}

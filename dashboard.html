@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Dashboard</title>
+	<link rel="stylesheet" type="text/css" href="static/style/dashboard.css">
+	<link rel="stylesheet" type="text/css" href="static/style/settings.css">
+	<link rel="shortcut icon" href="static/media/suitcase.png">
+	<script type="text/javascript">
+		var details = ["{{username}}","{{password}}"];
+	</script>
+</head>
+<body>
+<p id="stk-p">Stock  simulation</p>
+<div id="stk">
+	<div class="stk-bar stk-grn" style="height:50%;"></div>
+</div>
+<div id="details">
+	<div class="smp">Your balance : <span id="balance"> {{balance}} </span><br>Shares : <span id="shares"> {{share}} </span> | Share price : <span id="shr"> 50 </span></div>
+	<nav id="nv1" class="nv">
+		<button class="nv1-btn" onclick="buy()">Buy</button>
+		<button class="nv1-btn" onclick="sell()">Sell</button>
+	</nav>
+	<nav id="nv2" class="nv">
+		<p class="nv2-p">Buy (press b) | Sell (press s)</p>
+	</nav>
+	<nav id="nv3" class="nv">
+		<button class="nv1-btn" onclick="settings()">Settings</button>
+		<a href="/"><button class="nv1-btn">Logout</button></a>
+	</nav>
+</div>
+<script type="text/javascript" src="static/script/script.js"></script>
+</body>
+</html>

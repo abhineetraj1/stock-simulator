@@ -1,0 +1,60 @@
+#frm{
+	position: fixed;
+	top: 5vh;
+	border: solid;
+	background: white;
+	margin-top: 24vh;
+	text-align: center;
+	border-radius: 8px;
+}
+#frm:hover{
+	box-shadow: 0px 0px 10px white;
+}
+.inp{
+	width: 90%;
+	position: relative;
+	font-size: 20px;
+	border:solid;
+	border-color: black;
+	margin-top: 1vh;
+}
+.fm-btn{
+	width: 50%;
+	margin: 1vh;
+	color: white;
+	background: black;
+	border: solid;
+	font-size: 18px;
+	padding: 3px;
+}
+.fm-btn:hover{
+	animation: ani 1s;
+	background: white;
+	color: black;
+	border-color: black;
+}
+@keyframes ani{
+	from{
+		border-color: black;
+		background: black;
+		color: white;
+	}
+	to{
+		background: white;
+		color:black;
+	}
+}
+@media screen and (max-width:600px) {
+	#frm{
+		position: relative;
+		left: 10%;
+		width: 80%;
+	}
+}
+@media screen and (min-width:600px) {
+	#frm{
+		position: relative;
+		left: 35%;
+		width: 30%;
+	}
+}

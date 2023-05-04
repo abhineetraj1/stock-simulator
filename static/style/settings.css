@@ -1,0 +1,33 @@
+#settings-cont{
+	background: #004ce3;
+	color: blue;
+	width: 30%;
+	text-align: center;
+	position: absolute;
+	left: 35%;
+	top: 10vh;
+	border-radius: 9px;
+}
+.settings-input{
+	border-radius: 8px;
+	font-size: 19px;
+	background: black;
+	color: white;
+	border: solid;
+	width: 90%;
+	border-color: blue;
+}
+.settings-btn{
+	background: green;
+	color: white;
+	font-size: 19px;
+	margin: 1vh;
+	border-radius: 8px;
+	border-width: 0px;
+}
+@media screen and (max-width:600px) {
+	#settings-cont{
+		width: 85%;
+		left: 7%;
+	}
+}
