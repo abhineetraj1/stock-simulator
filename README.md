@@ -1,14 +1,12 @@
 # Stock simulation
 
+https://raw.githubusercontent.com/abhineetraj1/stock-simulator/main/sample.mp4
+
 This projects provide stock simuulation platform, where user gets some credits and user can use their credits to invested in virtuals share simulation.
-
-## Demo
-
-![Watch the video](https://github.com/abhineetraj1/stock-simulator/raw/master/sample.mp4)
 
 Sample account for testing:-
 *	Username= abhineetraj1
-*	Password= avhineetraj
+*	Password= abhineetraj
 
 ## Features
 *	Account sign in, sign up and deletion
