@@ -1,6 +1,6 @@
 # Stock simulation
 
-[![Demo video](https://images.pexels.com/videos/4822860/black-and-white-background-cool-wallpaper-hd-wallpapers-motion-4822860.jpeg)](https://raw.githubusercontent.com/abhineetraj1/stock-simulator/main/sample.mp4)
+https://github.com/abhineetraj1/stock-simulator/assets/82033840/732c1d85-7b82-42b8-997d-9fba6d3085b7
 
 This projects provide stock simuulation platform, where user gets some credits and user can use their credits to invested in virtuals share simulation.
 
